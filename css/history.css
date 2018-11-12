@@ -1,0 +1,181 @@
+/*---------------------------------body-------------------------------------*/
+#history_top{
+    background: url(../img/history_top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height:710px;
+}
+.history1 .top{
+    color: rgb(207, 204, 204);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 54px;
+    border: 6px rgb(207, 204, 204) solid;
+    padding: 0px 15px;
+    margin-top:530px; 
+}
+.content{
+    background-color:  #5E5E5E;
+}
+.index{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin:55px 0;
+    padding:0 20px;
+    border: 6px white solid;
+}
+/*-------------------detail-----------------------*/
+.pic{
+    background:url(../img/history.jpg);
+    height: 530px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.name p{
+    text-align:center;
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:900;
+    margin-top: 100px;
+}
+.line{
+    background-color: #FFECE5;
+    height:530px;
+}
+.word{
+    color: #EC6492;
+    font-size: 3vmin;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:500;
+    overflow:scroll;
+    text-overflow:ellipsis;
+    border: 12px #EEB4C5 solid;
+    padding: 40px 50px;
+    margin: 65px;
+}
+/*-------------------detail-----------------------*/
+/*-------------------detail1-----------------------*/
+.pic1{
+    background:url(../img/story.jpg);
+    height: 530px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.line1{
+    background-color: #FCEBD6;
+    height:530px;
+}
+.word1{
+    color: #D5A43A;
+    font-size: 3vmin;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:500;
+    overflow:scroll;
+    text-overflow:ellipsis;
+    border: 12px #D5A43A solid;
+    padding: 40px 50px;
+    margin: 65px;
+}
+/*-------------------detail1-----------------------*/
+/*-------------------detail2-----------------------*/
+.pic2{
+    background:url(../img/culture.jpg);
+    height: 530px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.line2{
+    background-color: rgba(238, 255, 255, 0.753);
+    height:530px;
+}
+.word2{
+    color: #0096FF;
+    font-size: 3vmin;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:500;
+    overflow:scroll;
+    text-overflow:ellipsis;
+    border: 12px #B4E5FF solid;
+    padding: 40px 50px;
+    margin: 65px;
+}
+/*-------------------detail2-----------------------*/
+/*--------------------------------footer-----------------------------------*/
+.down{
+    background: #5E5E5E;
+    max-height: 250px;
+}
+.down h2{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    padding: 20px 0;
+}
+.down p{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    padding: 20px 0;
+}
+.us{
+    border-right:8px solid rgb(255, 255, 255);
+}
+.col{
+    border:4px solid #5E5E5E;
+}
+.pad{
+    padding-left: 90px;
+    font-family: 'Oswald', sans-serif; 
+}
+.pad a{
+    font-family: 'Oswald', sans-serif; 
+}
+/*導覽列字顏色*/
+.bg-light .navbar-nav .nav-link{
+    color: #5E5E5E;
+}
+/*導覽列字顏色*/
+.bg-light .navbar-brand,
+.bg-light .navbar-text {
+    color: #5E5E5E;
+    font-size: 32px;
+}
+.bg-light .navbar-brand:hover{
+    color: #5E5E5E;
+}
+/*滑過導覽列變字顏色*/
+.bg-light .nav-item.active .nav-link,
+.bg-light .nav-item:hover .nav-link {
+    color: rgb(192, 157, 157);;
+}
+/*修改子選單文字連結顏色*/
+.bg-light .dropdown-item{
+    color: #5E5E5E;
+}
+/*滑過子項目變底色*/
+.bg-light .dropdown-item:hover{
+    background-color: rgb(192, 157, 157);
+    color:#ffffff;
+}
+.look{
+    margin:0 auto;
+}
+/*--------------------------------footer-----------------------------------*/

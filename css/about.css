@@ -1,0 +1,101 @@
+/*---------------------------------body-------------------------------------*/
+#about_top{
+    background: url(../img/about_top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height:800px;
+}
+.about h2{
+    color: #EC6492;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    padding: 320px 0;
+    font-size: 54px;
+   
+}
+.content h2{
+    color: rgb(243, 148, 177);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:300;
+    font-size: 48px;
+    padding:100px 0;
+    /*單字單字間距離letter-spacing: 0px;*/
+}
+.name span{
+    background-color: rgb(255, 255, 255);
+    padding: 15px 50px;
+    text-align:center;
+    color: rgb(243, 148, 177);
+    font-size: 26px;
+}
+.pic{
+    margin: 60px 40px;
+}
+.down{
+    background: rgb(243, 148, 177);
+    max-height: 250px;
+}
+.down h2{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    padding: 20px 0;
+}
+.down p{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    padding: 20px 0;
+}
+.us{
+    background: rgb(243, 148, 177);
+    height:600px;
+    max-width: 500px;
+    width: 100%;
+}
+.author{
+    margin-bottom:100px; 
+}
+.pad{
+    padding-left: 90px;
+    font-family: 'Oswald', sans-serif; 
+}
+.pad a{
+    font-family: 'Oswald', sans-serif; 
+}
+/*導覽列字顏色*/
+.bg-light .navbar-nav .nav-link{
+    color: rgb(240, 164, 187);
+}
+/*導覽列字顏色*/
+.bg-light .navbar-brand,
+.bg-light .navbar-text {
+    color: rgb(240, 164, 187);
+    font-size: 32px;
+}
+.bg-light .navbar-brand:hover{
+    color: rgb(240, 164, 187);
+}
+/*滑過導覽列變字顏色*/
+.bg-light .nav-item.active .nav-link,
+.bg-light .nav-item:hover .nav-link {
+    color: rgb(226, 33, 152);
+}
+/*修改子選單文字連結顏色*/
+.bg-light .dropdown-item{
+    color: rgb(240, 164, 187);
+}
+/*滑過子項目變底色*/
+.bg-light .dropdown-item:hover{
+    background-color: rgb(226, 33, 152);
+    color:#ffffff;
+}
+
+/*---------------------------------body-------------------------------------*/

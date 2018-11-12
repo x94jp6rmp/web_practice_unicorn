@@ -1,0 +1,309 @@
+/*--------------------------------nav-----------------------------------*/
+
+.pad {
+    padding-left: 90px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.pad a {
+    font-family: 'Oswald', sans-serif;
+}
+
+/*導覽列字顏色*/
+
+.bg-light .navbar-nav .nav-link {
+    color: #4b59a7;
+}
+
+/*導覽列字顏色*/
+
+.bg-light .navbar-brand,
+.bg-light .navbar-text {
+    color: #4b59a7;
+    font-size: 32px;
+}
+
+.bg-light .navbar-brand:hover {
+    color: #4b59a7;
+}
+
+/*滑過導覽列變字顏色*/
+
+.bg-light .nav-item.active .nav-link,
+.bg-light .nav-item:hover .nav-link {
+    color: #acb3db;
+}
+
+/*修改子選單文字連結顏色*/
+
+.bg-light .dropdown-item {
+    color: #acb3db;
+}
+
+/*滑過子項目變底色*/
+
+.bg-light .dropdown-item:hover {
+    background-color: #4b59a7;
+    color: #ffffff;
+}
+
+/*--------------------------------nav-----------------------------------*/
+
+/*---------------------------------body-------------------------------------*/
+
+#activity_top {
+    background: url(../img/movie_top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 710px;
+}
+
+.activity {
+    color: rgb(207, 204, 204);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 54px;
+    border: 6px rgb(207, 204, 204) solid;
+    padding: 0px 15px;
+    margin-top: 530px;
+}
+
+.p {
+    margin-top: 205px;
+    background-color: #EEDAE0;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.inside {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+
+.join {
+    padding: 40px 20px;
+    background-color: #7b89d9;
+    height: 100%;
+}
+
+.join p {
+    text-shadow: 0 1px 0 hsl(174, 5%, 80%),
+    0 2px 0 hsl(174, 5%, 75%),
+    0 3px 0 hsl(174, 5%, 70%),
+    0 4px 0 hsl(174, 5%, 66%),
+    0 5px 0 hsl(174, 5%, 64%),
+    0 6px 0 hsl(174, 5%, 62%),
+    0 7px 0 hsl(174, 5%, 61%),
+    0 8px 0 hsl(174, 5%, 60%),
+
+    0 0 5px rgba(0, 0, 0, .05),
+    0 1px 3px rgba(0, 0, 0, .2),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .2),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .3);
+    font-family: 'Oswald', sans-serif;
+    font-size: 10vmin;
+    font-weight: 500;
+    color: #fff9f9;
+}
+
+.join a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4vmin;
+    font-weight: 500;
+    color: #7d89d0;
+    background-color: #ffffff;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.join a:hover {
+    cursor: default;
+}
+
+img .when {
+    width: 35vw;
+    margin: 0 0 0
+}
+
+.video-container {
+
+    position: relative;
+
+    padding-bottom: 56.25%;
+
+    padding-top: 30px;
+
+    height: 0;
+
+    overflow: hidden;
+    align-content: center;
+
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+
+    height: 80%;
+    margin: auto;
+}
+
+
+.information {
+    margin: 100px auto;
+    height: auto;
+}
+
+.when,
+.where,
+.event {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3vmin;
+    color: #929292;
+    letter-spacing: 2px;
+}
+
+.time {
+    font-family: '微軟正黑體', sans-serif;
+    font-size: 4vmin;
+    color: #5f5a5a;
+    line-height: 5vw;
+}
+
+.explain {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vmin;
+    color: #5f5a5a;
+    text-align: center;
+}
+
+
+.content {
+    background: url(../img/schedule2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.bi {
+    margin-bottom: 70px;
+}
+
+.table {
+    margin: 0;
+}
+
+.stitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vmin;
+    color: #ffffff;
+}
+
+.list ul li,
+.do ul li {
+    list-style-type: none;
+    margin: 20px auto;
+}
+
+.list {
+    font-family: 'Oswald', sans-serif;
+    font-size: 6vmin;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.do {
+    font-family: 'Oswald', sans-serif;
+    font-size: 6vmin;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.stitle th {
+    padding: 50px;
+}
+
+.map h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+    color: #90AC67;
+    font-weight: 500;
+    padding: 220px 43%;
+}
+
+.j {
+    margin: 0;
+    padding: 0;
+}
+
+.word {
+    background-color: #EEF7E2;
+    height: 500px;
+}
+
+.table thead th {
+    border-bottom: 1px rgba(255, 0, 0, 0) solid;
+}
+
+/*--------------------------------footer-----------------------------------*/
+
+.down {
+    background: #7b89d9;
+    max-height: 250px;
+}
+
+.down h2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.down p {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+/*--------------------------------footer-----------------------------------*/
+
+.borderless td,
+.borderless th {
+    border: none;
+}

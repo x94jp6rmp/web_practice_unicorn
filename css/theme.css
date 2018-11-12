@@ -1,0 +1,140 @@
+/*--------------------------------nav-----------------------------------*/
+
+.pad{
+    padding-left: 90px;
+    font-family: 'Oswald', sans-serif; 
+}
+.pad a{
+    font-family: 'Oswald', sans-serif; 
+}
+/*導覽列字顏色*/
+.bg-light .navbar-nav .nav-link{
+    color: rgb(144, 178, 206);
+}
+/*導覽列字顏色*/
+.bg-light .navbar-brand,
+.bg-light .navbar-text {
+    color: rgb(144, 178, 206);
+    font-size: 32px;
+}
+.bg-light .navbar-brand:hover{
+    color: rgb(144, 178, 206);
+}
+/*滑過導覽列變字顏色*/
+.bg-light .nav-item.active .nav-link,
+.bg-light .nav-item:hover .nav-link {
+    color: rgb(70, 96, 117);
+}
+/*修改子選單文字連結顏色*/
+.bg-light .dropdown-item{
+    color: rgb(144, 178, 206);
+}
+/*滑過子項目變底色*/
+.bg-light .dropdown-item:hover{
+    background-color:  rgb(70, 96, 117);
+    color:#ffffff;
+}
+/*--------------------------------nav-----------------------------------*/
+/*---------------------------------body-------------------------------------*/
+#theme_top{
+    background: url(../img/theme_top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height:450px;
+}
+.book{
+    background-color: rgb(231, 41, 127);
+    height: 150px;
+}
+.book a:hover{
+    text-decoration: none;
+    background-color: rgb(17, 144, 218);
+    color:rgb(250, 250, 250);
+    box-shadow: 15px 11px #165885;
+}
+.book a{
+    color: rgb(231, 41, 127);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 33px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 5px 15px;
+    box-shadow: 15px 11px #f5c7e3dc;
+}
+.line{
+    border: 7px white solid;
+}
+.inc{
+    margin-bottom: 70px;
+}
+.inc h2{
+    font-family: 'Bangers', cursive;
+    font-size: 42px;
+    color:#FF7E2D;
+    margin: 50px;
+}
+.word{
+    padding: 50px 65px;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 4vmin;
+    color:#ffffff;
+    background-color:#FF7E2D;
+    box-shadow: 60px 30px rgba(255, 98, 0, 0.178);  
+   text-align: center;
+}
+.ti{
+    background-color: #74C2C9;
+    height: 100%;
+    font-family: 'Bangers', cursive;
+    font-size: 7vw;
+    color: #ffffff;
+}
+.map{
+    background: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height:686px;
+}
+.to{
+    margin: 50px;
+}
+.photo{
+    font-family: 'Bangers', cursive;
+    font-size: 42px;
+    color:rgb(106, 171, 228);
+    margin: 50px;
+}
+.pic{
+    margin: 0 auto;
+}
+.us{
+    margin-bottom: 30px;
+}
+/*---------------------------------body-------------------------------------*/
+/*--------------------------------footer-----------------------------------*/
+.down{
+    background: #BDCEDD;
+    max-height: 250px;
+}
+.down h2{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    padding: 20px 0;
+}
+.down p{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    padding: 20px 0;
+}
+/*--------------------------------footer-----------------------------------*/
